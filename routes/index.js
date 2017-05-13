@@ -176,7 +176,7 @@ exports.index = function(req, res){
 			 //Classify here
 			 //http://ec2-54-173-121-109.compute-1.amazonaws.com:5000
 			 var request = require('request');
-			 request('http://ec2-54-173-121-109.compute-1.amazonaws.com:5000/?sentence='+response.snippet, function (error, response, body) {
+			 request('http://ec2-54-174-127-134.compute-1.amazonaws.com:5000/?sentence'+response.snippet, function (error, response, body) {
 			   console.log('error:', error); // Print the error if one occurred 
 			   console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received 
 			   console.log('body:', body); // Print the HTML for the Google homepage. 
