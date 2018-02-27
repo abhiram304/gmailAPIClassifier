@@ -1,8 +1,7 @@
 # gmailAPI
 
 ## Objective
-
-
+To access emails from Gmail, classify them using ML API (developed using sklearn and Python) and expose them as an API for Alexa skills.
 
 ## Usage
 
